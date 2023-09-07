@@ -1,0 +1,1 @@
+winget uninstall --id=SleuthKit.Autopsy

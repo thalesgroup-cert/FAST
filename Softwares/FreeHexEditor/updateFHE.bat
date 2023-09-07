@@ -1,0 +1,1 @@
+winget upgrade --id=HHDSoftware.FreeHexEditorNeo --accept-package-agreements --accept-source-agreements

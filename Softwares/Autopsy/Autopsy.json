@@ -1,0 +1,58 @@
+{
+    "name": "Autopsy",
+    "version": "4.19.1",
+    "lastUpdate": "2022-08-10",
+    "active": true,
+    "end": false,
+    "usage": "Autopsy is a GUI-based program that allows you to efficiently analyze hard drives and smart phones",
+    "doc": "https://sleuthkit.org/autopsy/docs/user-docs/4.19.1/",
+    "path": "Softwares/Autopsy",
+    "windows": {
+        "active": true,
+        "usage": "You have a shortcut in the desktop",
+        "troubleshooting": [],
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installAutopsy.bat",
+            "comment": ""
+        },
+        "update": {
+            "active": true,
+            "path": "updateAutopsy.bat",
+            "comment": ""
+        },
+        "remove": {
+            "active": true,
+            "path": "removeAutopsy.bat",
+            "comment": ""
+        }
+    },
+    "ubuntu": {
+        "active": true,
+        "usage": "Type `autopsy` in a terminal prompt",
+        "troubleshooting": "",
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installAutopsy.sh",
+            "comment": ""
+        },
+        "update": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    }
+}

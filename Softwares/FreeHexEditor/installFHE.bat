@@ -1,0 +1,1 @@
+winget install --id=HHDSoftware.FreeHexEditorNeo -e --accept-package-agreements --accept-source-agreements

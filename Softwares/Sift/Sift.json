@@ -1,0 +1,69 @@
+{
+    "name": "Sift",
+    "version": "v2021.9.1",
+    "lastUpdate": "2022-08-11",
+    "active": true,
+    "end": false,
+    "usage": "The SIFT Workstation is a collection of free and open-source incident response and forensic tools designed to perform detailed digital forensic examinations in a variety of settings. It can match any current incident response and forensic tool suite.",
+    "doc": "https://www.sans.org/tools/sift-workstation/",
+    "path": "Softwares/Sift",
+    "windows": {
+        "active": true,
+        "usage": "Type `wsl` in a terminal, then you have a Sift environment in the command prompt",
+        "troubleshooting": [
+            {
+                "title": "Error : `$'\\r': command not found`",
+                "description": "The script is used for both operating system windows and ubuntu. So it could be some error of comptability when you change the file in Ubuntu. In fact, when you save a file from Ubuntu, it create a newline character at the end and that's not compatible in Windows. To solve this problem, you should write in command line `wsl sed -i 's/\r$//' path/to/script/filename.sh`",
+                "images": [],
+                "link": [
+                    "https://stackoverflow.com/questions/11616835/r-command-not-found-bashrc-bash-profile"
+                ]
+            }
+        ],
+        "dependancies": {
+            "active": true,
+            "software": [
+                "Wsl2"
+            ]
+        },
+        "install": {
+            "active": true,
+            "path": "installSift.sh",
+            "comment": ""
+        },
+        "update": {
+            "active": true,
+            "path": "updateSift.sh",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    },
+    "ubuntu": {
+        "active": true,
+        "usage": "It's directly in the prompt command",
+        "troubleshooting": "",
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installSift.sh",
+            "comment": ""
+        },
+        "update": {
+            "active": true,
+            "path": "updateSift.sh",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    }
+}

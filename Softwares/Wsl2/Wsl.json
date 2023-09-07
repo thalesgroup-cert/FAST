@@ -1,0 +1,76 @@
+{
+    "name": "Wsl2",
+    "version": "2",
+    "lastUpdate": "2022-08-11",
+    "active": true,
+    "end": false,
+    "usage": "It's a Windows Subsystems, it means that you can install an Ubuntu terminal in Windows",
+    "doc": "https://docs.microsoft.com/en-us/windows/wsl/",
+    "path": "Softwares/Wsl2",
+    "windows": {
+        "active": true,
+        "usage": "Typing `wsl` in the terminal",
+        "troubleshooting": [
+            {
+                "title": "Reboot system for installation",
+                "description": "If you launch the script and then nothing happened, you may reboot your system",
+                "images": [],
+                "link": []
+            },
+            {
+                "title": "Error 0x80370102 : Activate virtualization",
+                "description": "This error occurs when the virtualization isn't activated in your virtual machine. To solve the problem, you have to activate it from VmWare or VirtualBox.",
+                "images": [
+                    "Wsl/Wsl_virtualization_error.png",
+                    "Wsl/Wsl_virtualization_solution.png"
+                ],
+                "link": [
+                    "https://www.tactig.com/enable-intel-vt-x-amd-virtualization-pc-vmware-virtualbox/"
+                ]
+            }
+        ],
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installWsl2.bat",
+            "comment": "Make sure to activate virtualization in your virtual machine (see troubleshooting)"
+        },
+        "update": {
+            "active": true,
+            "path": "updateWsl2.bat",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    },
+    "ubuntu": {
+        "active": false,
+        "usage": "",
+        "troubleshooting": "",
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "update": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    }
+}

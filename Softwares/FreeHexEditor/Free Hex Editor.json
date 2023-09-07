@@ -1,0 +1,58 @@
+{
+    "name": "Free Hex Editor",
+    "version": "5.54.02.6790",
+    "lastUpdate": "2022-08-10",
+    "active": true,
+    "end": false,
+    "usage": "Free Hex Editor Neo is the fastest large files optimized binary file editor for Windows platform which is extremely useful for viewing, modifying and analyzing hexadecimal data in extra large files and disks",
+    "doc": "https://hhdsoftwaredocs.online/hex/getting-started/road-map.html",
+    "path": "Softwares/FreeHexEditor",
+    "windows": {
+        "active": true,
+        "usage": "You have a shortcut in the desktop",
+        "troubleshooting": [],
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installFHE.bat",
+            "comment": ""
+        },
+        "update": {
+            "active": true,
+            "path": "updateFHE.bat",
+            "comment": ""
+        },
+        "remove": {
+            "active": true,
+            "path": "removeFHE.bat",
+            "comment": ""
+        }
+    },
+    "ubuntu": {
+        "active": false,
+        "usage": "",
+        "troubleshooting": "",
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "update": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    }
+}

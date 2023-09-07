@@ -1,0 +1,1 @@
+winget uninstall --id=HHDSoftware.FreeHexEditorNeo

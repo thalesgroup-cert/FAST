@@ -1,0 +1,1 @@
+winget install --id=SleuthKit.Autopsy -e --accept-package-agreements --accept-source-agreements

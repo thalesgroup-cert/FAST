@@ -1,0 +1,1 @@
+winget upgrade --id=WiresharkFoundation.Wireshark --accept-package-agreements --accept-source-agreements

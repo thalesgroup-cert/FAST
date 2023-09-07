@@ -1,0 +1,58 @@
+{
+    "name": "Wireshark",
+    "version": "3.4.9.0",
+    "lastUpdate": "2022-08-10",
+    "active": true,
+    "end": true,
+    "usage": "Wireshark is the world\u00e2\u20ac\u2122s foremost network protocol analyzer",
+    "doc": "https://www.wireshark.org/docs/wsug_html_chunked/",
+    "path": "Softwares/Wireshark",
+    "windows": {
+        "active": true,
+        "usage": "You have a shortcut in the desktop",
+        "troubleshooting": [],
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installWireshark.bat",
+            "comment": ""
+        },
+        "update": {
+            "active": true,
+            "path": "updateWireshark.bat",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    },
+    "ubuntu": {
+        "active": true,
+        "usage": "Type `autopsy` in a terminal prompt",
+        "troubleshooting": "",
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installWireshark.sh",
+            "comment": ""
+        },
+        "update": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    }
+}
