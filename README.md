@@ -10,17 +10,17 @@ For investigation purpose, you can automatically install forensic software in yo
 - Ubuntu 20.04.3 LTS (64-bit)
 
 #### Goals
-- The script install DFIR software without almost no user interaction
+- The script install DFIR pieces of software without almost no user interaction
 - Update and remove easily already installed software
 - Running on Windows and Linux based systems
 
 #### Why FAST?
-- To facilitate software installation
+- To ease software installation
 - To help people in countries with slow internet connection
 - To avoid downloading Virtual Machine with large amout of data
 
 ## Prerequisites
-You can install forensic software in your own computer, but it's **highly recommended** to install it in a Virtual Machine.
+You can install forensic software in your own computer, but it's **highly recommended** to install it into a Virtual Machine.
 
 #### Installation of software in Virtual Machine
 - VMWare Workstation Pro / Virtual Box / Other Virtual Machine Software Programs
@@ -29,8 +29,8 @@ You can install forensic software in your own computer, but it's **highly recomm
 #### General Setup
 - Once your Virtual Machine is running, make sure **to do all the updates**, otherwise the program might not work properly
 - **Turn off standby and hibernation** to avoid stopping software installation
-- Install **FTKImager** on Windows to acquire the hard disk image
-- **Disable the antivirus** if you are installing **Nirsoft software**
+- If required, download **FTKImager** separately (https://www.exterro.com/ftk-imager) and drop the installer in "Softwares" folder
+- **Disable the antivirus** if you are installing **Nirsoft software** as it could trigger alerts and remove binaries considered as hacktools
 
 ___
 
@@ -38,27 +38,27 @@ ___
 
 ## Setup for installation
 
-##### 1. DOWNLOAD PYTHON  
-Go to Microsoft Store and download Python 3  
+##### 1. DOWNLOAD PYTHON
+Go to Microsoft Store and download Python 3
 [<img src="Documentation/Ressources/Windows/python.png" width="400"/>](Documentation/Ressources/Windows/python.png)
 ##### 2. Open FAST directory
 - Go to `Setup` folder and execute `windows.bat` script
-- Click `Yes` button to give the script administrator right, it will install Winget and Tkinter  
+- Click `Yes` button to give the script administrator rights, it will install Winget and Tkinter
 [<img src="Documentation/Ressources/Windows/admin_right2.png" width="250"/>](Documentation/Ressources/Windows/admin_right2.png)
 
 ##### 3. User interaction might be required during Winget installation:
-you will see Winget installation processing  
+- You will see Winget installation processing
 [<img src="Documentation/Ressources/Windows/winget1.png" width="400"/>](Documentation/Ressources/Windows/winget1.png)
 
 - If Winget is already installed, you won't have to do anything
-- Otherwise, you have to click on `Update` button that appears, then close that windows  
+- Otherwise, you have to click on `Update` button that appears, then close that window
  
 [<img src="Documentation/Ressources/Windows/winget2.png" width="300"/>](Documentation/Ressources/Windows/winget2.png)
 [<img src="Documentation/Ressources/Windows/winget3.png" width="285"/>](Documentation/Ressources/Windows/winget3.png)
 
 
 ## How to use the programm on Windows 10
-Click on `Launch_Windows.bat` to run the program and let the application to run as administrator  
+- Click on `Launch_Windows.bat` to run the program and let the application to run as administrator
 
 [<img src="Documentation/Ressources/Windows/admin_right2.png" width="250"/>](Documentation/Ressources/Windows/admin_right2.png)
 
@@ -181,7 +181,7 @@ ___
 
 # LICENSE
 
-The FAST code is released under the Massachusetts Institute of Technology License. See LICENSE for details.
+The FAST code is released under the Massachusetts Institute of Technology (MIT) license. See LICENSE for details.
 
 ## EMBEDDED SOFTWARE
 
@@ -221,7 +221,7 @@ This section lists other resources, such as cheatsheets that are used by FAST.
 
 ##### SANS Cheatsheets
 - Web page: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
-- General IT Security
+- General IT Security:
     - ABCs of Cybersecurity: https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt88a4f4d475dd6337/6140c2e9d4224e7daaed054f/Flyer_ABCs-Cybersecurity-Terms_v1.pdf
     - Windows and Linux Terminals & Command Lines: https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/bltea7de5267932e94b/5eb08aafcf88d36e47cf0644/Cheatsheet_SEC301-401_R7.pdf
     - TCP/IP and tcpdump: https://sansorg.egnyte.com/dl/8VIrX1K87d/?
@@ -238,7 +238,7 @@ This section lists other resources, such as cheatsheets that are used by FAST.
     - Network DDoS Incident Response Cheat Sheet: https://zeltser.com/media/docs/ddos-incident-cheat-sheet.pdf?msc=Cheat+Sheet+Blog
     - Information Security Assessment RFP Cheat Sheet: https://zeltser.com/media/docs/security-assessment-rfp-cheat-sheet.pdf?msc=Cheat+Sheet+Blog
     - Python 3 Essentials: https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt81d030ecd27e1e5d/5e50122503d2600dc053d3ee/Python3-Cheat-Sheet.pdf
-- Digital Forensics and Incident Response
+- Digital Forensics and Incident Response:
     - JSON and jq Quick Start Guide: https://sansorg.egnyte.com/dl/7qF6tbGgWx
     - SIFT Workstation Cheat Sheet: https://sansorg.egnyte.com/dl/rcC7AFiUr0
     - Tips for Reverse-Engineering Malicious Code: https://sansorg.egnyte.com/dl/pHqHxaLC5M
@@ -255,7 +255,7 @@ This section lists other resources, such as cheatsheets that are used by FAST.
     - FOR518 Mac & iOS HFS+ Filesystem Reference Sheet: https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt61c336e02577e733/5eb0940e248a28605479ccf0/FOR518_APFS_CheatSheet_012020.pdf
     - iOS Third-Party Apps Forensics Reference Guide Poster: https://sansorg.egnyte.com/dl/TeOraX38Od
     - oledump.py Quick Reference: https://sansorg.egnyte.com/dl/3ydBhha67l
-- Offensive Operations
+- Offensive Operations:
     - Windows Intrusion Discovery Cheat Sheet v3.0: https://sansorg.egnyte.com/dl/4oAuAf70Zt
     - Intrusion Discovery Cheat Sheet v2.0 (Linux): https://sansorg.egnyte.com/dl/ejj5SM2pjA
     - Intrusion Discovery Cheat Sheet v2.0 (Windows 2000): https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/bltd6fa777a3215f34a/5eb08aae08d37e6d82ef77fe/win2ksacheatsheet.pdf
@@ -270,15 +270,15 @@ This section lists other resources, such as cheatsheets that are used by FAST.
     - Google Hacking and Defense Cheat Sheet: https://sansorg.egnyte.com/dl/f4TCYNMgN6
     - Scapy Cheat Sheet: https://wiki.sans.blue/Tools/pdfs/ScapyCheatSheet_v0.2.pdf
     - Nmap Cheat Sheet: https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blte37ba962036d487b/5eb08aae26a7212f2db1c1da/NmapCheatSheetv1.1.pdf
-- Cloud Security
+- Cloud Security:
     - Multicloud Cheat Sheet: https://sansorg.egnyte.com/dl/1JHG4g0U5D
     - Powershell for Enterprise & Cloud Compliance: https://sansorg.egnyte.com/dl/WKKG4fZ6WX
     - Cloud Security and DevOps Cheat Sheet: https://sansorg.egnyte.com/dl/uDa5sqjDeH
-- Cybersecurity Leadership
+- Cybersecurity Leadership:
     - Ransomware + Healthcare: A Deadly Combination: https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/bltff1105a558ca6743/60f8193e40219d481f07518b/Flyer_Healthcare_Ransomeware_Final.pdf
     - What Your Privacy Officer is Trying to Tell You...If Only You Would Listen: https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blte08d737d5bb31819/612d36118f8f7644bdf4d159/Flyer-DocBlackburn-SANS-HIPAA-Privacy.pdf
     - Powershell for Enterprise & Cloud Compliance: https://sansorg.egnyte.com/dl/WKKG4fZ6WX
-- All Around Defenders Primers 
+- All Around Defenders Primers: 
     - Linux CLI 101: https://wiki.sans.blue/Tools/pdfs/LinuxCLI101.pdf
     - Linux CLI: https://wiki.sans.blue/Tools/pdfs/LinuxCLI.pdf
     - Powershell Primer: https://wiki.sans.blue/Tools/pdfs/PowerShell.pdf
