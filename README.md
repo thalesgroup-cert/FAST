@@ -29,7 +29,7 @@ You can install forensic software in your own computer, but it's **highly recomm
 #### General Setup
 - Once your Virtual Machine is running, make sure **to do all the updates**, otherwise the program might not work properly
 - **Turn off standby and hibernation** to avoid stopping software installation
-- If required, download **FTKImager** separately (https://www.exterro.com/ftk-imager) and drop the installer in "Softwares" folder
+- If required, download **FTKImager** separately (https://www.exterro.com/ftk-imager) and drop the installer in "Softwares > FtkImager" folder
 - **Disable the antivirus** if you are installing **Nirsoft software** as it could trigger alerts and remove binaries considered as hacktools
 
 ___
