@@ -174,9 +174,12 @@ ___
     │   ├── Cyberchef.py
     │   ├── requirements.txt
     │   └── Cyberchef.json
+    ├── FTKImager
+    │   ├── FTKImager.exe (Download the executable in https://www.exterro.com/ftk-imager)
+    │   ├── installFtkImager.bat
+    │   └── FtkImager.json
     └── ...
 ```
-
 ___
 
 # LICENSE
@@ -186,6 +189,10 @@ The FAST code is released under the Massachusetts Institute of Technology (MIT) 
 ## EMBEDDED SOFTWARE
 
 This section lists the software components and libraries that are distributed by FAST.
+
+You can find a specific documentation related to each software you can install in `Documentation > Software`.
+- Ubuntu.md : a summary of all the software that can be install in ubuntu operating system
+- Windows.md : a summary of all the software that can be install in windows operating system
 
 ##### Autopsy
 - Web page: https://www.autopsy.com/
@@ -197,6 +204,9 @@ This section lists the software components and libraries that are distributed by
 
 ##### FreeHexEditor (Freeware)
 - Web page: https://www.hhdsoftware.com/free-hex-editor
+
+##### FtkImager
+- Web page: https://www.exterro.com/ftk-imager
 
 ##### Remnux
 - Web page: https://remnux.org

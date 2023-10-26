@@ -1,7 +1,7 @@
 # Remnux  
   
 Version : v2021.41.1  
-Last update : 2022-08-17  
+Last update : 2023-10-25  
 Usage : Remnux is a Linux toolkit for reverse-engineering and analyzing malicious software. It provides a curated collection of free tools created by the community.  
 Documentation : https://docs.remnux.org/  
   

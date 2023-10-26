@@ -1,7 +1,7 @@
 # Wireshark  
   
 Version : 3.4.9.0  
-Last update : 2022-08-10  
+Last update : 2023-10-25  
 Usage : Wireshark is the world’s foremost network protocol analyzer  
 Documentation : https://www.wireshark.org/docs/wsug_html_chunked/  
   

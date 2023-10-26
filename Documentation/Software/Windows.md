@@ -1,7 +1,7 @@
 # Windows  
   
 Version : Windows 10 (system 64x) version 20H2  
-Softwares : [Autopsy](<#Autopsy>), [Cyberchef](<#Cyberchef>), [Free Hex Editor](<#Free Hex Editor>), [Remnux](<#Remnux>), [Sift](<#Sift>), [Wireshark](<#Wireshark>), [Wsl2](<#Wsl2>)  
+Softwares : [Autopsy](<#Autopsy>), [Cyberchef](<#Cyberchef>), [FTK Imager](<#FTK Imager>), [Free Hex Editor](<#Free Hex Editor>), [Remnux](<#Remnux>), [Sift](<#Sift>), [Wireshark](<#Wireshark>), [Wsl2](<#Wsl2>)  
   
 ### Autopsy  
   
@@ -13,6 +13,18 @@ Usage : You have a shortcut in the desktop
   
 Functionalities : install, update, remove  
 Usage : You have a shortcut in the desktop  
+  
+  
+### FTK Imager  
+  
+Functionalities : install, remove  
+Usage : You have a shortcut in the desktop  
+#### Troubleshooting  
+  
+##### Download FTKImager Executable  
+  
+Download FTKImager Executable on https://www.exterro.com/ftk-imager, and drop the installer in `Softwares/FTKImager` folder. When you launch FTKImager installer script with FAST, it will install the executable quietly.  
+  
   
   
 ### Free Hex Editor  

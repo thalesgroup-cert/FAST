@@ -1,7 +1,7 @@
 # Cyberchef  
   
 Version :   
-Last update : 2022-08-17  
+Last update : 2023-10-25  
 Usage : CyberChef is a simple, intuitive web app for carrying out all manner of 'cyber' operations within a web browser like simple encoding (XOR and Base64), more complex encryption (AES, DES and Blowfish), creating binary and hexdumps, compression and decompression of data, calculating hashes and checksums, IPv6 and X.509 parsing, changing character encodings, and much more.  
 Documentation : https://github.com/gchq/CyberChef  
   

@@ -1,0 +1,1 @@
+wmic product where name="AccessData FTK Imager" call uninstall

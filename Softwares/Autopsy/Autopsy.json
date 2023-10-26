@@ -1,7 +1,7 @@
 {
     "name": "Autopsy",
     "version": "4.19.1",
-    "lastUpdate": "2022-08-10",
+    "lastUpdate": "2023-10-25",
     "active": true,
     "end": false,
     "usage": "Autopsy is a GUI-based program that allows you to efficiently analyze hard drives and smart phones",

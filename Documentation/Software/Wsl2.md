@@ -1,7 +1,7 @@
 # Wsl2  
   
 Version : 2  
-Last update : 2022-08-11  
+Last update : 2023-10-25  
 Usage : It's a Windows Subsystems, it means that you can install an Ubuntu terminal in Windows  
 Documentation : https://docs.microsoft.com/en-us/windows/wsl/  
   

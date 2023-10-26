@@ -1,0 +1,65 @@
+{
+    "name": "FTK Imager",
+    "version": "4.5.0.3",
+    "lastUpdate": "2023-10-25",
+    "active": true,
+    "end": false,
+    "usage": "FTK Imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis with a forensic tool such as AccessData Forensic Toolkit (FTK) is warranted. FTK Imager can also create perfect copies (forensic images) of computer data without making changes to the original evidence.",
+    "doc": "https://ad-pdf.s3.amazonaws.com/Imager/4_7_1/FTKImager_UserGuide.pdf",
+    "path": "Softwares/FtkImager",
+    "windows": {
+        "active": true,
+        "usage": "You have a shortcut in the desktop",
+        "troubleshooting": [
+            {
+                "title": "Download FTKImager Executable",
+                "description": "Download FTKImager Executable on https://www.exterro.com/ftk-imager, and drop the installer in `Softwares/FTKImager` folder. When you launch FTKImager installer script with FAST, it will install the executable quietly.",
+                "images": [],
+                "link": []
+            }
+        ],
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": true,
+            "path": "installFtkImager.bat",
+            "comment": "Drop the executable file in the folder before launching this script"
+        },
+        "update": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "remove": {
+            "active": true,
+            "path": "removeFtkImager.bat",
+            "comment": ""
+        }
+    },
+    "ubuntu": {
+        "active": false,
+        "usage": "",
+        "troubleshooting": "",
+        "dependancies": {
+            "active": false,
+            "software": []
+        },
+        "install": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "update": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        },
+        "remove": {
+            "active": false,
+            "path": "",
+            "comment": ""
+        }
+    }
+}

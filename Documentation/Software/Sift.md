@@ -1,7 +1,7 @@
 # Sift  
   
 Version : v2021.9.1  
-Last update : 2022-08-11  
+Last update : 2023-10-25  
 Usage : The SIFT Workstation is a collection of free and open-source incident response and forensic tools designed to perform detailed digital forensic examinations in a variety of settings. It can match any current incident response and forensic tool suite.  
 Documentation : https://www.sans.org/tools/sift-workstation/  
   
